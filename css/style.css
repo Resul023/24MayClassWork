@@ -1,0 +1,151 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header .container {
+  padding: 35px;
+}
+
+#header .container .row .col-4 a {
+  text-decoration: none;
+}
+
+#header .container .row .col-4 a img {
+  width: 210px;
+  height: auto;
+}
+
+#header .container .row .col-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header .container .row .col-8 .row .navbar-list {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px !important;
+}
+
+#header .container .row .col-8 .row .navbar-list li {
+  margin-left: 35px;
+  list-style: none;
+  position: relative;
+}
+
+#header .container .row .col-8 .row .navbar-list li .menu-text {
+  text-decoration: none;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  display: inline-block;
+}
+
+#header .container .row .col-8 .row .navbar-list li .menu-text::after {
+  content: "";
+  width: 0%;
+  height: 1px;
+  position: absolute;
+  background-color: black;
+  bottom: -10px;
+  left: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#header .container .row .col-8 .row .navbar-list li .menu-text:hover:after {
+  width: 100%;
+}
+
+#header .container .row .col-8 .row .navbar-list li .menu-text:hover .subbar-list-item {
+  opacity: 1;
+}
+
+#header .container .row .col-8 .row .navbar-list li .subbar-list {
+  position: absolute;
+  background-color: #f34f3f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  top: 42px;
+  z-index: 100;
+  left: -9px;
+  opacity: 0;
+}
+
+#header .container .row .col-8 .row .navbar-list li .subbar-list .subbar-list-item {
+  padding: 10px 80px 10px 7px;
+  padding: 12px;
+}
+
+#header .container .row .col-8 .row .navbar-list li .subbar-list .subbar-list-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding: 12px 16px;
+}
+
+#header .container .row .col-8 .row .navbar-list .icon {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#header .container .row .col-8 .row .navbar-list .icon li {
+  list-style: none;
+}
+
+#header .container .row .col-8 .row .navbar-list .icon-search:hover {
+  color: #f34f3f;
+}
+
+#header .container .row .col-8 .row .navbar-list .icon-shop {
+  position: relative;
+}
+
+#header .container .row .col-8 .row .navbar-list .icon-shop .text-upper {
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: -3px;
+  top: -1px;
+  border: 1px solid #f34f3f;
+  background-color: #f34f3f;
+  border-radius: 50%;
+  color: white;
+}
+
+#header .container .row .col-8 .row .navbar-list .icon-shop .text-upper span {
+  font-size: 12px;
+}
+
+#header .container .row .col-8 .row .nav-icons {
+  width: 250px;
+}
+
+#main-image img {
+  width: 1920px;
+  height: 617px;
+}
+/*# sourceMappingURL=style.css.map */
