@@ -253,3 +253,218 @@
 .Wekilsasdas{
     margin: 0 auto;
 }
+#valentine{
+    padding: 120px;
+    background-color: #f7f7f7;
+    .container{
+        .row{
+            .video-side{
+                .img-video{
+                    display: block;
+                    overflow: hidden;
+                    position: relative;
+                    img{
+                        height: 421px;
+                        width: 652px;
+                    }
+                    .modal-body{
+                        height: 314px;
+                        padding: 0px;
+                        width: 560px;
+                    }
+                    a{
+                        position: absolute;
+                        top: 171px;
+                        left: 275px;
+                        font-size: 25px;
+                        border: 1px solid white;
+                        background-color: white;
+                        border-radius: 50%;
+                        width: 80px;
+                        height: 80px;
+                        text-align: center;
+                        line-height: 65px;
+                        i{
+                            color: #f34f3f;
+                            font-size: 25px;
+                            border: 1px solid white;
+                            background-color: white;
+                            border-radius: 50%;
+                            text-align: center;
+                            
+                        }
+                    }
+                    
+                }
+            }
+            .text-side{
+                padding: 42px;
+                font-family: 'Playfair Display', serif;
+                line-height: 1.6em;
+                font-weight: 400;
+               
+                h1{
+                    font-size: 34px;
+                    span{
+                        color: red;
+                        
+                    }
+                }
+                p{
+                    font-size: 17px;
+                    line-height: 29px;
+                    margin-top: 27px;
+                    width: 90%;
+                    color: #6d6a6a;
+                }
+                ul{
+                    list-style: none;
+                    
+                    li{
+                        display: flex;
+                        position: relative;
+                        margin:15px 0;
+                        i{
+                            position: absolute;
+                            top: 8px;
+                            left:-33px ;
+                            color: red;
+                        }
+                        p{
+                            margin: 0;
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#avatar{
+    padding: 130px;
+    .container{
+        .row{
+            .text{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h2{
+                    font-size: 38px;
+                    line-height: 1.447em;
+                    font-family: "Playfair Display",serif;
+                }
+                p{
+                    margin-top: 15px;
+                    width: 50%;
+                    font-size: 17px;
+                    line-height: 29px;
+                    font-family: "Playfair Display",serif;
+                    color: #6d6a6a;
+                }
+            }
+            .image{
+                margin-top: 30px;
+               display: flex;
+               justify-content: space-around; 
+               .avatar-icon{
+                   h6{
+                       
+                       margin: 0px;
+                       text-align: center;
+                       color: #1b1b1b;
+                       font-family: 'Montserrat', sans-serif;
+                       font-size: 12px;
+                       line-height: 2em;
+                       font-weight: 500;
+                       letter-spacing: .1em;
+                       margin-top: 12px;
+                   }
+                   p{
+                       margin: 0px;
+                       text-align: center;
+                       display: block;
+                        font-size: 12px;
+                        color: #afafaf;
+                        margin: 2px 0 4px;
+                   }
+               }
+            }
+        }
+    }
+}
+
+#search-img{
+    background-image: url(/assests/images/bk-img.jpg);
+    width: 100%;
+    padding: 220px;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 50% 174px;
+    position: relative;
+    .container{
+
+        .row{
+            .text-input{
+                
+                .text{
+                    color: white;
+                    h3{
+                        display: block;
+                        font-family: "Playfair Display",serif;
+                        font-weight: 400;
+                        font-size: 30px;
+                        line-height: 1.4em;
+                        font-size: 30px;
+                        
+                    }
+                }
+                .input{
+                    margin-top: 28px;
+                    input{
+                        padding: 18px;
+                        border: none;
+                        width: 38%;
+                        outline: 0;
+                    }
+                    button{
+                        width: 13%;
+                        padding: 18px;
+                        border: none;
+                        background-color: #f34f3f;
+                        color: white;
+                        margin-left: -4px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+#blog{
+    height: 1000px;
+    .container{
+        .row{
+            .image-text{
+                text-align: center;
+                .text{
+
+                    h2{
+                        font-size: 38px;
+                        line-height: 1.447em;
+                        color: #2b2b2b;
+                        font-family: "Playfair Display",serif;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
